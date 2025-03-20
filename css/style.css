@@ -188,6 +188,13 @@
   font-size: 20px;
 }
 
+input,select{
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0 #854836;
+  padding: 4px 10px;
+}
+
 /* Mobile Device */
 /* @media (max-width: 768px) {
   .nav-links {
