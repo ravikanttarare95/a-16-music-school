@@ -43,10 +43,10 @@
 }
 
 .navbar {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
@@ -54,17 +54,24 @@
   );
   padding: 5px 10px;
   color: #434242;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100VW;
 }
 
 .brand-container {
-  width: 300px;
+  /* width: 300px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: center; */
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .brand-container img {
   height: 70px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #brand-name {
@@ -74,45 +81,54 @@
   text-align: center;
   font-family: "Bungee Spice", sans-serif;
   text-shadow: 1px 2px 2px #000;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .nav-links {
   width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;  margin-right: 150px;
 }
 
-.nav-links ul {
+/* .nav-links ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
-}
+}*/
 
-.nav-links ul a {
+.nav-links a {
   text-decoration: none;
   color: #434242;
   font-size: 20px;
   font-weight: bold;
+  margin: 20PX;
 }
 
+/*
 .nav-links ul a:hover {
   padding-bottom: 5px;
   border-bottom: 2px solid #434242;
   border-radius: 10px;
   opacity: 0.5;
-}
+} */
 
 .nav-link-selected {
   padding-bottom: 5px;
   border-bottom: 2px solid #434242;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .user-container {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .user-name {
@@ -160,20 +176,20 @@
   opacity: 0.6;
 }
 
-.btn-small{
+.btn-small {
   padding: 2px 8px;
   border-radius: 10px;
   font-size: 14px;
 }
 
-.btn-large{
+.btn-large {
   padding: 5px 20px;
   border-radius: 10px;
   font-size: 20px;
 }
 
 /* Mobile Device */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .nav-links {
     display: none;
   }
@@ -185,4 +201,4 @@
   .nav-menu-container {
     display: block;
   }
-}
+} */
