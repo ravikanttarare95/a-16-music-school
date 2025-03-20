@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.mx-5 {
+  margin: 5px;
+}
+
+.mx-10 {
+  margin: 10px;
+}
+
 .login-section {
   display: flex;
   flex-direction: row;
@@ -24,6 +32,104 @@
   text-decoration: none;
   color: #fff;
 }
+
 .login-section a:hover {
-  color: #FFB22C;
+  color: #ffb22c;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,178,44,1) 100%);
+  padding: 5px 10px;
+  color: #434242;
+}
+
+.brand-container {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.brand-container img {
+  height: 70px;
+}
+
+#brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  font-family: "Bungee Spice", sans-serif;
+  text-shadow: 1px 2px 2px #000;
+}
+
+.nav-links {
+  width: 500px;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links ul a {
+  text-decoration: none;
+  color: #434242;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links ul a:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #434242;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.nav-link-selected {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #434242;
+  border-radius: 10px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-name {
+  font-size: large;
+  text-align: center;
+}
+
+.nav-menu-container {
+  display: none;
+}
+
+.nav-menu {
+  font-size: 24px;
+}
+
+/* Mobile Device */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .user-container {
+    display: none;
+  }
+
+  .nav-menu-container {
+    display: block;
+  }
 }
