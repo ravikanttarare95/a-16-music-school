@@ -1,8 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Itim", cursive;
 }
-
+.main-headings {
+  font-family: "Cinzel", serif;
+  font-size: 24px;
+  color: #854836;
+}
 .mx-5 {
   margin: 5px;
 }
@@ -42,7 +47,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,178,44,1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 178, 44, 1) 100%
+  );
   padding: 5px 10px;
   color: #434242;
 }
