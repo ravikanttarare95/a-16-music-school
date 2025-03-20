@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #434242;
+  padding: 3px;
+}
+
+.tagline {
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-size: large;
+  font-weight: bold;
+  margin: 0;
+}
+
+.login-section a {
+  text-decoration: none;
+  color: #fff;
+}
+.login-section a:hover {
+  color: #FFB22C;
+}
