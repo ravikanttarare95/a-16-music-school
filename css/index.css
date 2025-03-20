@@ -1,8 +1,35 @@
-.all-buttons{
-    width: 100%;  background: linear-gradient(
-        180deg,
-        rgba(255, 178, 44, 1) 0%,
-        #854836 100%
-      );
-      text-align: center;
+.all-buttons {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255, 178, 44, 1) 0%, #854836 100%);
+  text-align: center;
+}
+
+.music-cards-container {
+  text-align: center;
+}
+
+.cards {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 30px;
+  width: 280px;
+  height: 350px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.end-tagline {
+  color: #ffb22c;
+  text-shadow: 1px 0 1px black;
+  font-size: x-large;
+  text-align: center;
+}
+
+.end-section{
+  text-align: center;
 }

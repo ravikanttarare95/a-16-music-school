@@ -1,8 +1,11 @@
 * {
-  margin: 0;
-  padding: 0;
   font-family: "Itim", cursive;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .main-headings {
   font-family: "Cinzel", serif;
   font-size: 24px;
