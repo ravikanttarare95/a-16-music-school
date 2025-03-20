@@ -128,6 +128,50 @@
   font-size: 24px;
 }
 
+/* BUTTONS */
+.btn {
+  padding: 4px 16px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.btn:hover {
+  position: relative;
+  top: 1.5px;
+  box-shadow: 1px 2px 3px 1px #ccc;
+}
+
+.btn-primary {
+  background-color: #ffb22c;
+  color: #000;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #854836;
+  color: #fff;
+  border: none;
+}
+
+.btn-disabled {
+  background-color: #434242;
+  color: #fff;
+  border: 2px solid #fff;
+  opacity: 0.6;
+}
+
+.btn-small{
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.btn-large{
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
 /* Mobile Device */
 @media (max-width: 768px) {
   .nav-links {
