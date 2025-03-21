@@ -1,7 +1,7 @@
 * {
   font-family: "Itim", cursive;
 }
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -59,7 +59,7 @@ body{
   color: #434242;
   display: inline-block;
   vertical-align: middle;
-  width: 100VW;
+  width: 100vw;
 }
 
 .brand-container {
@@ -92,7 +92,8 @@ body{
   width: 500px;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 50px;  margin-right: 150px;
+  margin-left: 50px;
+  margin-right: 150px;
 }
 
 /* .nav-links ul {
@@ -107,7 +108,7 @@ body{
   color: #434242;
   font-size: 20px;
   font-weight: bold;
-  margin: 20PX;
+  margin: 20px;
 }
 
 /*
@@ -191,11 +192,49 @@ body{
   font-size: 20px;
 }
 
-input,select{
+input,
+select {
   border: none;
   border-radius: 10px;
   box-shadow: 0 0 3px 0 #854836;
   padding: 4px 10px;
+}
+
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 178, 44, 1) 100%
+  );
+  padding: 5px 10px;
+  color: #434242;
+  text-align: center;
+}
+
+.media-contact-learn {
+  display: inline-block;
+  margin: 0 100px 20px;
+}
+
+.media-contact-learn h3 {
+  margin: 20px 10px;
+  font-size: x-large;
+}
+
+.media-contact-learn a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: x-large;
+  color: #434242;
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+}
+
+.copyright::before {
+  content: "\00A9";
 }
 
 /* Mobile Device */
