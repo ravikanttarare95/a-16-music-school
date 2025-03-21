@@ -25,11 +25,11 @@
   margin: 40px 0;
 }
 
-.choose-us div h3{
+.choose-us div h3 {
   text-decoration: underline;
 }
 
-.choose-us div p{
+.choose-us div p {
   color: wheat;
 }
 
@@ -42,6 +42,12 @@
   display: inline-block;
   vertical-align: top;
   text-align: center;
+}
+
+.cards:hover {
+  transition: 0.3s;
+  transform: scale(1.02);
+  box-shadow: 0 0 10px 0 #666;
 }
 
 .cards img {
@@ -64,6 +70,6 @@
   text-align: center;
 }
 
-.end-section a{
-  color:#854836;
+.end-section a {
+  color: #854836;
 }
