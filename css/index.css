@@ -22,7 +22,15 @@
 }
 
 .choose-us div {
-margin: 40px 0;
+  margin: 40px 0;
+}
+
+.choose-us div h3{
+  text-decoration: underline;
+}
+
+.choose-us div p{
+  color: wheat;
 }
 
 .cards {
@@ -38,6 +46,11 @@ margin: 40px 0;
 
 .cards img {
   width: 100%;
+}
+
+.cards h3 img {
+  width: 25px;
+  vertical-align: middle;
 }
 
 .end-tagline {
