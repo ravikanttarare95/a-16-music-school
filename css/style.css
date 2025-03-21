@@ -11,6 +11,12 @@ body {
   font-size: 24px;
   color: #854836;
 }
+
+.secondary-headings {
+  font-size: 22px;
+  color: #ffb22c;
+}
+
 .mx-5 {
   margin: 5px;
 }
