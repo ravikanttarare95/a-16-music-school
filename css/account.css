@@ -1,0 +1,35 @@
+form {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 100px;
+}
+
+.log-in-form {
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px 0 #854836;
+}
+
+.log-in-form:hover {
+  box-shadow: 0 0 5px 0 #854836;
+}
+
+.log-in-form div {
+  margin: 20px;
+}
+
+.forgot-password a {
+  font-size: smaller;
+  text-decoration: none;
+  color: #854836;
+}
+
+.login-left-content {
+  display: inline-block;
+}
+
+.my{
+    margin: 100px 10px ;
+}

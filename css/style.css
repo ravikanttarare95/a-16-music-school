@@ -160,6 +160,7 @@ body {
   border-radius: 10px;
   font-size: 17px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -191,12 +192,16 @@ body {
   padding: 2px 8px;
   border-radius: 10px;
   font-size: 14px;
+  margin: 7px;
+  cursor: pointer;
 }
 
 .btn-large {
   padding: 5px 20px;
   border-radius: 10px;
   font-size: 20px;
+  margin: 12px;
+  cursor: pointer;
 }
 
 input,
